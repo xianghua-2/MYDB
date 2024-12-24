@@ -47,9 +47,8 @@ mvn exec:java -Dexec.mainClass="top.xianghua.mydb.client.Launcher"
 ![](https://s3.bmp.ovh/imgs/2021/11/2749906870276904.png)
 
 ### Windows下运行
-首先在D盘创建数据库的路径,比如D:\temp\mydb
 
-接着执行以下命令以 D:\temp\mydb 作为路径创建数据库：
+执行以下命令以 D:\temp\mydb 作为路径创建数据库：
 
 ```shell
 mvn exec:java -D"exec.mainClass"="top.xianghua.mydb.server.Launcher" -D"exec.args"="-create D:\temp\mydb"
