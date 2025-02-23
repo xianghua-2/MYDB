@@ -1,6 +1,6 @@
-# MYDB
+# SimpleDB
 
-MYDB 是一个 Java 实现的简单的数据库，部分原理参照自 MySQL、PostgreSQL 和 SQLite。实现了以下功能：
+SimpleDB 是一个 Java 实现的简单的数据库，部分原理参照自 MySQL、PostgreSQL 和 SQLite。实现了以下功能：
 
 - 数据的可靠性和数据恢复
 - 两段锁协议（2PL）实现可串行化调度
